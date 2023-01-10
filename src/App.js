@@ -32,6 +32,7 @@ export const data = {
 };
 
 const App = () => {
+  // this create conflict maybe from master branch 
   return (
     <div className="abc">
       <Pie data={data} height='10' width='10'/>;
